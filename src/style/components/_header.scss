@@ -1,0 +1,32 @@
+header {
+  position: fixed;
+  top: 0;
+  width: 1300px;
+  margin: auto;
+  background: $gr;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  line-height: 80px;
+  h1 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+    letter-spacing: 30px;
+    margin-left: 50px;
+  }
+  li {
+    color: #fff;
+    display: inline-block;
+    font-size: 18px;
+    margin-right: 50px;
+    cursor: pointer;
+    user-select: none;
+    font-weight: 100;
+  }
+  li.active {
+    font-weight: 500;
+    font-size: 20px;
+  }
+}
